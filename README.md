@@ -1,4 +1,4 @@
-# Shadowgenic VST PianoRoll
+<img src="title.png" alt="Shadowgenic VST PianoRoll">
 
 Windows 向けの VST3 MIDI シーケンサー／ピアノロールです。DAW の中で MIDI ノートやコードを編集し、別の音源へ MIDI を送ります。プラグイン自体は音源ではありません。
 
