@@ -15,20 +15,7 @@ Windows 向けの VST3 MIDI シーケンサー／ピアノロールです。DAW 
 インストール後、DAW のプラグイン一覧を再スキャンしてください。
 DAW が起動中なら、インストール前に終了してください。
 
-## マニュアル
 
-画像を含む各言語の HTML マニュアルです。
-
-- [日本語](Manual_JA.html)
-- [English](Manual_EN.html)
-- [Français](Manual_FR.html)
-- [Deutsch](Manual_DE.html)
-- [Italiano](Manual_IT.html)
-- [Русский](Manual_RU.html)
-- [Español](Manual_ES.html)
-- [Català](Manual_CA.html)
-- [Português](Manual_PT.html)
-- [Suomi](Manual_FI.html)
 
 ## DAW で使う
 
