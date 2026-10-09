@@ -1,5 +1,48 @@
 <img src="title.png" alt="Shadowgenic VST PianoRoll">
 
+This is a VST3 MIDI sequencer/piano roll for Windows. You can edit MIDI notes and chords inside your DAW and send MIDI to another instrument. The plugin itself is not a sound generator.
+
+VST3 Name: Shadowgenic VST PianoRoll (ShdwgnicVSTPR.vst3)
+
+Installation
+Launch the installer and select the language for both the installer and the manual.
+Only the manual for the selected language will be installed, and a shortcut will be added to the Start Menu.
+
+VST3: %ProgramFiles%\Common Files\VST3\ShdwgnicVSTPR.vst3
+
+Manual: %ProgramFiles%\Shadowgenic\Manual
+
+After installation, rescan your DAW’s plugin list.
+If your DAW is running, please close it before installing.
+
+Using in a DAW
+Load Shadowgenic VST PianoRoll into an instrument track in your DAW.
+
+Load a VST instrument for sound output, and route MIDI from the PianoRoll to the instrument using your DAW’s MIDI routing.
+
+One instance provides 16 tracks. To increase the number of tracks, add another instance with the same Group ID and assign outputs A–H. Up to 8 outputs and 128 tracks are available.
+
+Playback and stop are controlled from the DAW’s transport.
+
+MIDI routing procedures differ depending on the host.
+Refer to the manual for details, including examples for Fender Studio Pro.
+
+Main Features
+MIDI editing in Track View and Piano Roll
+
+Smart Tool for entering and editing notes and MIDI components
+
+Up to 128 tracks with per‑channel output settings
+
+Chord events, chord follow, key/scale display
+
+Editing of Velocity, CC, and Pitch Bend
+
+Section saving, project saving, MIDI file import/export
+
+License Information
+For libraries used and license details, see THIRD_PARTY_NOTICES.md.
+
 Windows 向けの VST3 MIDI シーケンサー／ピアノロールです。DAW の中で MIDI ノートやコードを編集し、別の音源へ MIDI を送ります。プラグイン自体は音源ではありません。
 
 **VST3 名:** `Shadowgenic VST PianoRoll`  (`ShdwgnicVSTPR.vst3`)
