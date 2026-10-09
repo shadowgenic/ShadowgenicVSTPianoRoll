@@ -41,7 +41,7 @@ Editing of Velocity, CC, and Pitch Bend
 Section saving, project saving, MIDI file import/export
 
 License Information
-For libraries used and license details, see THIRD_PARTY_NOTICES.md.
+For libraries used and license details, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 
 
 Windows 向けの VST3 MIDI シーケンサー／ピアノロールです。DAW の中で MIDI ノートやコードを編集し、別の音源へ MIDI を送ります。プラグイン自体は音源ではありません。
 
