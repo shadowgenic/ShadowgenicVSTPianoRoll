@@ -50,35 +50,6 @@ Inno Setup で作成したインストーラを起動し、インストーラと
 - Velocity、CC、Pitch Bend の編集
 - セクション保存、プロジェクト保存、MIDI ファイル入出力
 
-## ソースからビルド
-
-Windows x64、CMake 3.22 以降、Visual Studio の C++ デスクトップ開発ツールが必要です。JUCE 9 は `vendor/JUCE` に含まれています。
-
-```powershell
-cmake -S . -B build -G "Visual Studio 18 2026" -A x64
-cmake --build build --config Release --target MIDIEditor_VST3 HostSmoke
-```
-
-VST3 の生成先:
-
-```text
-build/MIDIEditor_artefacts/Release/VST3/ShdwgnicVSTPR.vst3
-```
-
-ホストスモークテスト:
-
-```powershell
-& .\build\HostSmoke_artefacts\Release\HostSmoke.exe .\build\MIDIEditor_artefacts\Release\VST3\ShdwgnicVSTPR.vst3
-```
-
-Inno Setup 7 がインストールされている場合は、リポジトリのルートでインストーラを再生成できます。
-
-```powershell
-& "C:\Program Files\Inno Setup 7\ISCC.exe" .\installer.iss
-```
-
-出力先は `build/Installer` です。
-
 ## ライセンス表示
 
 使用ライブラリとライセンス情報は [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) を参照してください。
