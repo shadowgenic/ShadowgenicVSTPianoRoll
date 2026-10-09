@@ -6,9 +6,8 @@ This is a VST3 MIDI sequencer/piano roll for Windows. You can edit MIDI notes an
 Launch the installer and select the language for both the installer and the manual.
 Only the manual for the selected language will be installed, and a shortcut will be added to the Start Menu.
 
-VST3: %ProgramFiles%\Common Files\VST3\ShdwgnicVSTPR.vst3
-
-Manual: %ProgramFiles%\Shadowgenic\Manual
+- VST3: `%ProgramFiles%\Common Files\VST3\ShdwgnicVSTPR.vst3`
+- Manual: `%ProgramFiles%\Shadowgenic\Manual`
 
 After installation, rescan your DAW’s plugin list.
 If your DAW is running, please close it before installing.
