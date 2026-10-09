@@ -7,15 +7,14 @@ Windows 向けの VST3 MIDI シーケンサー／ピアノロールです。DAW 
 
 ## インストール
 
-Inno Setup で作成したインストーラを起動し、インストーラとマニュアルの言語を選んでください。選んだ言語のマニュアルだけがインストールされ、スタートメニューにショートカットが作成されます。
+インストーラを起動し、インストーラとマニュアルの言語を選んでください。
+選んだ言語のマニュアルだけがインストールされ、スタートメニューにショートカットが作成されます。
 
 - VST3: `%ProgramFiles%\Common Files\VST3\ShdwgnicVSTPR.vst3`
 - マニュアル: `%ProgramFiles%\Shadowgenic\Manual`
 
-[生成済みインストーラ](build/Installer/ShadowgenicVSTPianoRollSetup_0.9.0beta.exe)  
-インストーラのスクリプト: [installer.iss](installer.iss)
-
-インストール後、DAW のプラグイン一覧を再スキャンしてください。DAW が起動中なら、インストール前に終了してください。
+インストール後、DAW のプラグイン一覧を再スキャンしてください。
+DAW が起動中なら、インストール前に終了してください。
 
 ## マニュアル
 
