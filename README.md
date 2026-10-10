@@ -21,7 +21,7 @@ Load a VST instrument for sound output, and route MIDI from the PianoRoll to the
 
 One instance provides 16 tracks. To increase the number of tracks, add another instance with the same Group ID and assign outputs A–H. 
 Up to 8 outputs and 128 tracks are available.
-
+<img src="TrackView.png" alt="TrackView">
 Playback and stop are controlled from the DAW’s transport.
 
 MIDI routing procedures differ depending on the host.
@@ -29,14 +29,19 @@ Refer to the manual for details, including examples for Fender Studio Pro.
 
 ## Main Features
 MIDI editing in Track View and Piano Roll
-
+<img src="PianoRoll.png" alt="PianoRoll">
 Smart Tool for entering and editing notes and MIDI components
 
 Up to 128 tracks with per‑channel output settings
 
 Chord events, chord follow, key/scale display
+<img src="CodeInput.png" alt="CodeInput">
 
 Editing of Velocity, CC, and Pitch Bend
+<img src="inspector.png" alt="inspector">
+
+List view editor mode
+<img src="Listview.png" alt="Listview">
 
 Section saving, project saving, MIDI file import/export
 
@@ -68,19 +73,23 @@ DAW が起動中なら、インストール前に終了してください。
 2. 発音用の VST 音源を読み込み、DAW の MIDI ルーティングで PianoRoll から音源へ接続します。
 3. 1 インスタンスで 16 トラックを使用できます。トラック数を増やす場合は同じ Group ID のインスタンスを追加し、出力 A〜H を割り当てます。最大 8 出力、128 トラックまで使用できます。
 4. 再生と停止は DAW のトランスポートで操作します。
+<img src="TrackView.png" alt="TrackView">
 
 ホストごとに MIDI ルーティングの手順は異なります。Fender Studio Pro の設定例など、詳細はマニュアルを参照してください。
 
 ## 主な機能
 
 - トラックビューとピアノロールでの MIDI 編集
+<img src="PianoRoll.png" alt="PianoRoll">
 - Smart ツールによるノートや MIDI 部品の入力・編集
 - 最大 128 トラック、MIDI チャンネルごとの出力設定
 - コードイベント、コード追従、キー／スケール表示
+<img src="CodeInput.png" alt="CodeInput">
 - Velocity、CC、Pitch Bend の編集
+<img src="inspector.png" alt="inspector">
+- リスト表示でのMIDI編集にも対応
+<img src="Listview.png" alt="Listview">
 - セクション保存、プロジェクト保存、MIDI ファイル入出力
-
-- 
 
 ## ライセンス表示
 
