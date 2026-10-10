@@ -1,7 +1,7 @@
 <img src="title.png" alt="Shadowgenic VST PianoRoll">
 
 This is a VST3 MIDI sequencer/piano roll for Windows.
-You can edit MIDI notes and chords inside your DAW and send MIDI to another instrument. 
+You can edit MIDI notes and chords inside Plugin and send MIDI to another instrument on your DAW. 
 The plugin itself is not a sound generator.
 
 ## Installation
@@ -51,7 +51,7 @@ For libraries used and license details, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY
 ////////////////////////////////////////////////////////////////////////////
 
 Windows 向けの VST3 MIDI シーケンサー／ピアノロールです。
-DAW の中で MIDI ノートやコードを編集し、別の音源へ MIDI を送ります。
+プラグインの中で MIDI ノートやコードを編集し、DAW上の別の音源へ MIDI を送ります。
 プラグイン自体は音源ではありません。
 
 **VST3 名:** `Shadowgenic VST PianoRoll`  (`ShdwgnicVSTPR.vst3`)
